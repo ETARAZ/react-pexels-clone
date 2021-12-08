@@ -10,9 +10,7 @@ function Media({ media }) {
   const [load, setLoad] = useState(true);
   return (
     <div
-      className={`relative !bg-green-500 ${
-        load ? "animate-pulse" : ""
-      } group w-full`}
+      className={`relative !bg-green-500 group w-full`}
     >
       <img
         onLoad={() => setLoad(false)}
