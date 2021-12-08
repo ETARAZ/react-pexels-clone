@@ -1,0 +1,27 @@
+{
+  "name": "vrt-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "npm run build && vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-masonry-css": "^1.0.16",
+    "react-query": "^3.34.0",
+    "react-router-dom": "^6.0.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
+  }
+}

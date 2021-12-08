@@ -1,0 +1,3 @@
+.tabs .active  .show-border{
+    @apply opacity-100;
+}
