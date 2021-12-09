@@ -19,7 +19,7 @@ function Search({ text,hero }) {
                         <SearchIcon className="w-6 h-6 text-[#5e5e5e]" />
                     </button>
                 </div>
-                <div className={`${focus ? 'block' : 'hidden'} absolute max-h-96 w-full overflow-y-auto bg-white p-4 pr-0  drop-shadow-md  rounded-br-md rounded-bl-md`}>
+                <div className={`${focus ? 'block' : 'hidden'} absolute z-20 max-h-96 w-full overflow-y-auto bg-white p-4 pr-0  drop-shadow-md  rounded-br-md rounded-bl-md`}>
                     <div className="font-normal mb-2 leading-4 text-sm">
                         <span>Trending Topics</span>
                     </div>
