@@ -14,7 +14,7 @@ function Hero() {
                 <img className="object-cover w-full h-full" src="https://images.pexels.com/photos/8775535/pexels-photo-8775535.jpeg?auto=compress&cs=tinysrgb&fit=crop&fp-y=0.5&h=500&sharp=10&w=1500" alt="hero" />
             </div>
 
-            <section className="z-10 w-full max-w-2xl">
+            <section className="z-20 w-full max-w-2xl">
                 <h1 className="text-4xl w-full mb-5 font-bold text-white leading-48">
                     The best free stock photos, royalty free images & videos shared by creators.
                 </h1>
