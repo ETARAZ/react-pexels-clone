@@ -10,7 +10,7 @@ function Search({ text,hero }) {
         setFocus(false)
     }
     return (
-        <div className="max-w-750 group  w-full mr-4">
+        <div className="max-w-750 group z-20  w-full mr-4">
             <form className="relative z-10">
                 <div className={`z-10 relative flex ${focus ? 'bg-white rounded-br-none rounded-bl-none  drop-shadow-lg' : "bg-back"}  transition-colors   rounded-md`}>
                     <input onBlur={handleBlur} onFocus={handleFocus} type="search" placeholder={text} className={` flex-initial bg-transparent  text-[#1a1a1a] p-3 sm:px-5 ${hero ? "py-5" : "sm:py-3"} not-italic border-0 outline-none placeholder-size placeholder-[#5e5e5e]     text-17 leading-22 w-full font-semibold sm:font-normal `} />
